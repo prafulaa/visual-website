@@ -1,0 +1,2 @@
+This is a placeholder file to ensure the public directory is created.
+The actual textures will be created by the setup script. 

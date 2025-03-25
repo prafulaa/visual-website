@@ -1,0 +1,223 @@
+.starVizContainer {
+  background-color: #0a0e26;
+  border-radius: 12px;
+  padding: 24px;
+  color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  margin: 20px 0;
+}
+
+.vizTitle {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: #e0e0ff;
+  text-shadow: 0 0 10px rgba(100, 149, 237, 0.6);
+}
+
+.infoRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.label {
+  font-weight: bold;
+  color: #8a9cec;
+  margin-right: 10px;
+  min-width: 90px;
+}
+
+.value {
+  color: #ffffff;
+}
+
+.visualizationsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.moonPhaseCard, .starMapCard, .constellationsCard {
+  background-color: rgba(10, 18, 50, 0.6);
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.moonPhaseCard {
+  flex: 1;
+  min-width: 250px;
+}
+
+.starMapCard {
+  flex: 2;
+  min-width: 300px;
+}
+
+.moonPhaseHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.colorButton {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  color: white;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.colorButton:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.colorSwatch {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-right: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.colorPicker {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.colorPicker label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.colorPicker input {
+  width: 60px;
+  height: 30px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.moonPhaseContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.moonPhaseViz {
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.moonEmoji {
+  font-size: 60px;
+  line-height: 1;
+}
+
+.moonDetails {
+  margin-top: 10px;
+}
+
+.phaseName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #e0e0ff;
+}
+
+.illumination {
+  font-size: 0.9rem;
+  color: #aab8e8;
+}
+
+.starMapContainer {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 600px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.placeholderMap {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.constellationsCard {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.constellationsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.constellation {
+  background-color: rgba(100, 149, 237, 0.2);
+  border-radius: 20px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.constellation:hover {
+  background-color: rgba(100, 149, 237, 0.3);
+  transform: translateY(-2px);
+}
+
+.constellationName {
+  margin-right: 8px;
+}
+
+.star {
+  color: #e0e0ff;
+  font-size: 1.2rem;
+}
+
+.disclaimer {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #8a9cec;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid rgba(100, 149, 237, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .visualizationsRow {
+    flex-direction: column;
+  }
+  
+  .moonPhaseCard, .starMapCard {
+    width: 100%;
+  }
+} 

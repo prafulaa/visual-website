@@ -1,0 +1,70 @@
+{
+  "name": "cosmic-journey",
+  "version": "0.1.0",
+  "private": false,
+  "description": "An interactive cosmic visualization web application with retro-themed Earth logos and celestial scenes",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\"",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.90.0",
+    "@react-three/fiber": "^8.15.12",
+    "framer-motion": "^10.16.16",
+    "gsap": "^3.12.3",
+    "lodash": "^4.17.21",
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.159.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/react": "^14.1.2",
+    "@types/jest": "^29.5.11",
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.10.4",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@types/three": "^0.159.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.0.4",
+    "husky": "^8.0.3",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "postcss": "^8.4.32",
+    "prettier": "^3.1.1",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "cosmic",
+    "visualization",
+    "interactive",
+    "retro",
+    "three.js",
+    "next.js",
+    "react",
+    "tailwindcss"
+  ],
+  "author": "Cosmic Journey Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/cosmic-journey.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/cosmic-journey/issues"
+  },
+  "homepage": "https://github.com/username/cosmic-journey#readme"
+} 
