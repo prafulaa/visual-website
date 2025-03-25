@@ -39,8 +39,8 @@ An interactive web experience that offers an endless scrolling journey through t
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/cosmic-journey.git
-cd cosmic-journey
+git clone https://github.com/prafulaa/visual-website.git
+cd visual-website
 ```
 
 2. Install dependencies
