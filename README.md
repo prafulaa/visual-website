@@ -75,7 +75,7 @@ yarn dev
 ```
 
 6. Open [http://localhost:3000](http://localhost:3000) in your browser
-here is the website
+//here is the website
 https://birthday-cosmic.vercel.app/
 
 ## 🌟 Usage
